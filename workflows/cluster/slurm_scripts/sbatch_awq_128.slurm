@@ -16,7 +16,7 @@ BATCH_SIZES=(1 2 4 8 16 32 64 128)
 
 # --- Setup & Run ---
 mkdir -p logs "$OUT_DIR"
-export HUGGING_FACE_HUB_TOKEN="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"
+export HUGGING_FACE_HUB_TOKEN="YOUR_HUGGING_FACE_TOKEN_HERE"
 export HF_HOME="/home/2024004/PARTAGE/huggingface_cache"
 source /soft/AIDL/conda/2410/etc/profile.d/conda.sh
 conda activate vllm_env

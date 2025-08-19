@@ -6,26 +6,6 @@ The scripts are organized to reflect the two primary environments used for the e
 
 ---
 
-## Repository Structure
-llm-energy-benchmark/
-├── README.md
-├── LICENSE
-├── results_and_analysis/
-│ ├── plot_results.ipynb
-│ └── (*.csv result files are stored here)
-└── workflows/
-├── cluster/
-│ ├── run_benchmark_vllm_new.py
-│ ├── run_baseline_accuracy.py
-│ └── slurm_scripts/
-│ └── ... (slurm submission scripts)
-└── workstation_hilbert/
-├── run_autoawq_quantize.py
-├── run_power_benchmark.py
-└── run_accuracy.py
-code
-Code
----
 
 ## Environment and Dependencies
 
