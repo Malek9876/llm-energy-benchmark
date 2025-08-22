@@ -72,7 +72,7 @@ The `.slurm` scripts are templates that were modified for each specific experime
 
 ## Results and Analysis
 
-All raw data from the benchmarks was saved as `.csv` files in the `analysis/` directory.
+All the  data from the benchmarks was saved strucutred  as an excel file in the `analysis/` directory.
 
 The Jupyter Notebook, `plot_results.ipynb`, located in the same directory, was used to load this data, perform the EDP calculations, and generate the final plots and figures presented in the paper.
 
