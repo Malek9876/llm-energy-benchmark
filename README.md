@@ -30,7 +30,7 @@ The `run_autoawq_quantize.py` script was used to create the 4-bit AWQ quantized 
     ```
 
 **Step B: Power and Performance Benchmarking**
-The `run_power_benchmark.py` script was executed to measure the performance and energy consumption of the quantized models on the workstation's GPU (NVIDIA RTX 5000 Ada). The output was saved as a CSV file in the `results_and_analysis/` directory.
+The `run_power_benchmark.py` script was executed to measure the performance and energy consumption of the quantized models on the workstation's GPU (NVIDIA RTX 5000 Ada). The output was saved as a CSV file in the `analysis/` directory.
 
 **Step C: Model Accuracy Evaluation**
 The `run_accuracy.py` script was used to evaluate the accuracy of both the original baseline models and the newly quantized models on the ARC, HellaSwag, and MMLU benchmarks.
@@ -65,14 +65,14 @@ The `.slurm` scripts are templates that were modified for each specific experime
     python ../run_benchmark_vllm_new.py \
       --model "mistralai/Mistral-7B-Instruct-v0.1" \ # <-- This was edited for different models
       --max-new-tokens 128 \
-      --output-file "../../results_and_analysis/7b_base_128_a100.csv"
+      --output-file "../../analysis/7b_base_128_a100.csv"
     ```
 
 ---
 
 ## Results and Analysis
 
-All raw data from the benchmarks was saved as `.csv` files in the `results_and_analysis/` directory.
+All raw data from the benchmarks was saved as `.csv` files in the `analysis/` directory.
 
 The Jupyter Notebook, `plot_results.ipynb`, located in the same directory, was used to load this data, perform the EDP calculations, and generate the final plots and figures presented in the paper.
 
