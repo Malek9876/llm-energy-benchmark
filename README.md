@@ -81,9 +81,8 @@ The Jupyter Notebook, `plot_results.ipynb`, located in the same directory, was u
 ## Citation
 
 If you use this code in your research, please cite our work:
-[Your BibTeX citation will go here once the paper is published]
-code
-Code
+https://hal.science/hal-05213288/
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
